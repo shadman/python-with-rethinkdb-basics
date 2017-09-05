@@ -39,6 +39,9 @@ or (for older versions)
 
 $ sudo pip install rethinkdb (for older versions)
 
+### Install essentials for Python
+
+$ sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
 
 
 # Setting up ReThinkDB

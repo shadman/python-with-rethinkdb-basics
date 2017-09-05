@@ -108,10 +108,10 @@ for document in cursor:
     print(document)
 
 ### Apply Conditions
-cursor = r.table("authors").filter(r.row["posts"].count() > 2).run()
+cursor = r.table("tv_shows").filter(r.row["posts"].count() > 2).run()
 for document in cursor:
     print(document)
 
 ### Retrieve Specific Record
-r.db('test').table('authors').get('7644aaf2-9928-4231-aa68-4e65e31bf219').run()
+r.db('test').table('tv_shows').get('7644aaf2-9928-4231-aa68-4e65e31bf219').run()
 

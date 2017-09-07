@@ -118,3 +118,41 @@ for document in cursor:
 ### Retrieve Specific Record
 r.db('test').table('tv_shows').get('7644aaf2-9928-4231-aa68-4e65e31bf219').run()
 
+
+
+# Install Python Tornado
+
+## Installing Tornado
+
+$ sudo apt-get install python-tornado
+
+$ sudo pip3 install ioloop (if needed)
+
+## Installing Tornado Package
+
+$ sudo pip3 install tornado
+
+or
+
+$ sudo pip install tornado
+
+## Install Tornado Package (if not yet installed from above line)
+
+$ sudo python3 -m pip install tornado
+
+or
+
+$ sudo python -m pip install tornado
+
+## Execute Python Tornado Script
+
+$ python3 basic.py
+
+After executing above file, you may access your web page via:
+
+BROWSER: http://localhost:8181/
+
+REFERENCES:
+
+https://www.acmesystems.it/tornado_web_server_python
+https://www.safaribooksonline.com/library/view/introduction-to-tornado/9781449312787/ch01s02.html
